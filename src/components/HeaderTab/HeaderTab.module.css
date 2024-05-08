@@ -1,0 +1,33 @@
+.tab {
+  cursor: pointer;
+}
+
+.tab:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0px;
+  background: transparent;
+  transition:
+    width 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.tab:hover:after {
+  width: 100%;
+  background: #000;
+}
+
+.active::after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 100%;
+  background: #000;
+}
+
+.active p {
+  font-weight: 700;
+}
