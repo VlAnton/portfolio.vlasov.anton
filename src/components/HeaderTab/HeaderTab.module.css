@@ -28,6 +28,7 @@
   background: #000;
 }
 
-.active p {
+.active,
+.tab:hover {
   font-weight: 700;
 }
