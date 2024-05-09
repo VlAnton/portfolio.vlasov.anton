@@ -1,0 +1,5 @@
+export { Home } from '@/pages/Home/Home'
+export { About } from '@/pages/About/About'
+export { Experience } from '@/pages/Experience/Experience'
+export { Skills } from '@/pages/Skills/Skills'
+export { Contacts } from '@/pages/Contacts/Contacts'

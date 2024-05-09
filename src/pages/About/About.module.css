@@ -1,0 +1,22 @@
+.mainHeader {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.subHeader {
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.caption {
+  font-size: 25px;
+  margin: 0;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
