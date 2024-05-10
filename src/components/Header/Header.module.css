@@ -4,11 +4,13 @@
   display: flex;
   gap: 100px;
   height: 140.5px;
+  max-width: min(1920px, 100%);
+  margin: auto;
 }
 
 .header p {
   margin: 0;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .header ul {

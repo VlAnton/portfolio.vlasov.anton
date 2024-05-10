@@ -1,0 +1,21 @@
+.cardWrapper {
+  border-radius: 50px;
+  border: 1px solid #000;
+  text-decoration: none;
+  color: #000;
+
+  display: flex;
+  gap: 25px;
+  padding: 25px 50px;
+  max-width: calc(50% - 25px);
+  flex-basis: calc(33% - 50px);
+  flex-grow: 1;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color ease 0.3s;
+}
+
+.cardWrapper:hover {
+  background-color: #f1f1f1;
+  transition: background-color ease 0.3s;
+}
