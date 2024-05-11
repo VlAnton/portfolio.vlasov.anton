@@ -2,10 +2,14 @@
   padding: 50px;
   border-bottom: 2px solid #000;
   display: flex;
+  height: var(--header-height);
+  justify-content: center;
+}
+
+.headerContent {
+  display: flex;
   gap: 100px;
-  height: 140.5px;
-  max-width: min(1920px, 100%);
-  margin: auto;
+  width: 1820px;
 }
 
 .header p {
