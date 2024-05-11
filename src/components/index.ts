@@ -1,4 +1,5 @@
 export { Header } from '@/components/Header/Header'
+export { Footer } from '@/components/Footer/Footer'
 export { HeaderTab } from '@/components/HeaderTab/HeaderTab'
-export { Layout } from '@/components/Layout'
+export { Layout } from '@/components/Layout/Layout'
 export { AboutCard } from '@/components/AboutCard/AboutCard'

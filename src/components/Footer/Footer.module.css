@@ -1,0 +1,23 @@
+.footer {
+  padding: 50px;
+  display: flex;
+  gap: 15px;
+  border-top: 2px solid #000;
+  justify-content: center;
+  height: var(--footer-height);
+  margin-top: auto;
+}
+
+.text,
+.link {
+  font-size: 30px;
+}
+
+.text {
+  margin: 0;
+}
+
+.link {
+  color: #007cff;
+  text-decoration: none;
+}

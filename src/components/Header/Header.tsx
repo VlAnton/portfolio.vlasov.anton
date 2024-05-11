@@ -53,20 +53,22 @@ export function Header() {
 
   return (
     <header className={classes.header}>
-      <p className={classes.logo}>Антон Власов</p>
+      <div className={classes.headerContent}>
+        <p className={classes.logo}>Антон Власов</p>
 
-      <ul>
-        {tabs.map((tab) => (
-          <HeaderTab
-            key={tab.id}
-            activeTab={activeTab}
-            onClick={handleClick}
-            {...tab}
-          >
-            {tab.text}
-          </HeaderTab>
-        ))}
-      </ul>
+        <ul>
+          {tabs.map((tab) => (
+            <HeaderTab
+              key={tab.id}
+              activeTab={activeTab}
+              onClick={handleClick}
+              {...tab}
+            >
+              {tab.text}
+            </HeaderTab>
+          ))}
+        </ul>
+      </div>
     </header>
   )
 }
