@@ -1,0 +1,47 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.descriptionText {
+  font-size: 35px;
+  margin: 0;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.blockHeader {
+  font-size: 35px;
+  margin: 0;
+}
+
+.subBlock {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.cardBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.cardBlockHeader {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.cardBlockDescription {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.cardBlock * {
+  margin: 0;
+}

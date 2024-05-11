@@ -1,0 +1,26 @@
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  padding: 100px 50px;
+  max-width: min(1920px, 100%);
+  margin: auto;
+  height: fit-content;
+}
+
+.main-header {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.sub-header {
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.caption {
+  font-size: 25px;
+  margin: 0;
+}
