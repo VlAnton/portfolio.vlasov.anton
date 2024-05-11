@@ -11,17 +11,18 @@ import { AboutCard } from '@/components'
 export function About() {
   return (
     <div className="page-wrapper">
-      <h1 className={classes.mainHeader}>Обо мне</h1>
+      <h1 className="main-header">Обо мне</h1>
 
       <section className={classes.about}>
         <div className={`${classes.block} ${classes.firstBlock}`}>
-          <h3 className={classes.subHeader}>Общая информация</h3>
-          <p className={classes.caption}>
+          <h3 className="sub-header">Общая информация</h3>
+          <p className="caption">
             26 лет, frontend-разработчик.
             <br />
             <br /> <b>Люблю</b> стрит-фотографию и фотографировать людей на
-            мероприятиях. <b>Люблю</b> рисовать портреты акварелью или
-            карандашом. <br />
+            мероприятиях.
+            <br />
+            <b>Люблю</b> рисовать портреты акварелью или карандашом. <br />
             <b>Люблю</b> книги, кино, музыку, ходить на выставки и в музеи.
             <br />
             <br />В данный момент занимаюсь UI/UX дизайном, но хочу вернуться в
@@ -46,10 +47,10 @@ export function About() {
       </section>
 
       <section className={classes.block}>
-        <h3 className={classes.subHeader}>Моё образование</h3>
+        <h3 className="sub-header">Моё образование</h3>
         <div className={classes.subBlock}>
           <AboutCard link="http://kn.urfu.tilda.ws/" path={mathMechLogo}>
-            <p className={classes.caption}>
+            <p className="caption">
               Закончил<b>&nbsp;матмех УрФУ</b>, специальность —
               <i>&nbsp;математика</i>.
             </p>
@@ -58,7 +59,7 @@ export function About() {
             link="https://practicum.yandex.ru/profile/middle-frontend/"
             path={PracticumLogo}
           >
-            <p className={classes.caption}>
+            <p className="caption">
               Прохожу курс<i>&nbsp;Middle Frontend-разработчик</i> от
               <b>&nbsp;Практикума</b>.
             </p>
@@ -67,7 +68,7 @@ export function About() {
             link="https://bangbangeducation.ru/program/graphdesign"
             path={BBELogo}
           >
-            <p className={classes.caption}>
+            <p className="caption">
               Прошёл курс<i>&nbsp;Графический дизайнер</i> в
               <b>&nbsp;Bang Bang Education</b>.
             </p>
