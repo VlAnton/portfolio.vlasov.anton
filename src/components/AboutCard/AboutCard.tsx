@@ -17,7 +17,7 @@ export function AboutCard(props: AboutCardProps) {
       href={props.link}
       rel="noreferrer"
     >
-      <img src={props.path} />
+      <img src={props.path} alt="about-card" loading="lazy" />
       {props.children}
     </a>
   )
