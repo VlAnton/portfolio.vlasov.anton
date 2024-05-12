@@ -17,7 +17,7 @@ export function About() {
         <div className={`${classes.block} ${classes.firstBlock}`}>
           <h3 className="sub-header">Общая информация</h3>
           <p className="caption">
-            26 лет, frontend-разработчик.
+            26 лет, город Екатеринбург, frontend-разработчик.
             <br />
             <br />Я люблю:
             <ul>
