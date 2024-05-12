@@ -1,5 +1,5 @@
 .mainPageCard {
-  background-color: #000;
+  background-color: var(--color-primary-border);
   padding: 150px 100px;
   border-radius: 50px;
   background-image: url('@/assets/images/DSC_0134.png');
