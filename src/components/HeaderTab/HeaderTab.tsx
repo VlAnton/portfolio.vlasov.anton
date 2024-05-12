@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import classes from '@/components/HeaderTab/HeaderTab.module.css'
 
 type TabProps = {
   activeTab: string
   tabName: string
-  children: string
+  children: ReactNode
   link: string
   onClick: (e: string) => void
 }
