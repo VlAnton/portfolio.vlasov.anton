@@ -17,7 +17,7 @@ export function About() {
         <div className={`${classes.block} ${classes.firstBlock}`}>
           <h3 className="sub-header">Общая информация</h3>
           <p className="caption">
-            26 лет, город Екатеринбург, frontend-разработчик.
+            26 лет, Екатеринбург, frontend-разработчик.
             <br />
             <br />Я люблю:
             <ul>
@@ -41,14 +41,17 @@ export function About() {
           <img
             className={`${classes.image} ${classes.gridItem1}`}
             src={img1}
+            loading="lazy"
           ></img>
           <img
             className={`${classes.image} ${classes.gridItem2}`}
             src={img2}
+            loading="lazy"
           ></img>
           <img
             className={`${classes.image} ${classes.gridItem3}`}
             src={img3}
+            loading="lazy"
           ></img>
         </div>
       </section>
