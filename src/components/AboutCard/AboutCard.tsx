@@ -1,6 +1,14 @@
 import React from 'react'
 import classes from '@/components/AboutCard/AboutCard.module.css'
 
+type AboutCardProps = {
+  link: string
+  path: string
+  children: string
+}
+
+// TODO: fix types
+
 export function AboutCard(props: any) {
   return (
     <a
