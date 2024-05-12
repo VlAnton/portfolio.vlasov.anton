@@ -17,6 +17,14 @@ export function Experience() {
           работал frontend-разработчиком 3.5 лет, после&nbsp;чего&nbsp;
           переквалифицировался в&nbsp;UI/UX дизайнеры.
         </p>
+        <a
+          className={classes.descriptionText}
+          href="https://github.com/VlAnton"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Мой GitHub
+        </a>
       </section>
 
       <section className={classes.block}>

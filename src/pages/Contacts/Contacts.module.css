@@ -3,6 +3,12 @@
   list-style-type: none;
 } */
 
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
 .contacts li {
   font-size: 30px;
 }
