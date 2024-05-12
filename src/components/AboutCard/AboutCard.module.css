@@ -1,8 +1,8 @@
 .cardWrapper {
   border-radius: 50px;
-  border: 2px solid #000;
+  border: 2px solid var(--color-primary-border);
   text-decoration: none;
-  color: #000;
+  color: var(--color-primary-text);
 
   display: flex;
   gap: 25px;

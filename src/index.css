@@ -3,6 +3,10 @@
 :root {
   --header-height: 140.5px;
   --footer-height: 140.5px;
+
+  --color-primary-text: var(--color-primary-border);
+  --color-primary-link: #007cff;
+  --color-primary-border: #000;
 }
 
 body {

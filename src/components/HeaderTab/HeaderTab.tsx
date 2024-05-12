@@ -20,7 +20,7 @@ export function HeaderTab(props: TabProps) {
       }
     >
       <Link
-        style={{ color: '#000', textDecoration: 'none' }}
+        style={{ color: 'var(--color-primary-text)', textDecoration: 'none' }}
         to={`${props.link}`}
         onClick={() => props.onClick(props.tabName)}
       >

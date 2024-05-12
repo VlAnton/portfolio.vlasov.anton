@@ -19,14 +19,21 @@ export function About() {
           <p className="caption">
             26 лет, frontend-разработчик.
             <br />
-            <br /> <b>Люблю</b> стрит-фотографию и фотографировать людей на
-            мероприятиях.
-            <br />
-            <b>Люблю</b> рисовать портреты акварелью или карандашом. <br />
-            <b>Люблю</b> книги, кино, музыку, ходить на выставки и в музеи.
-            <br />
-            <br />В данный момент занимаюсь UI/UX дизайном, но хочу вернуться в
-            разработку
+            <br />Я люблю:
+            <ul>
+              <li>
+                Cтрит-фотографию и&nbsp;фотографировать людей
+                на&nbsp;мероприятиях;
+              </li>
+              <li>Обрабатывать фотографии;</li>
+              <li>Рисовать портреты акварелью или&nbsp;карандашом;</li>
+              <li>
+                Книги, кино, музыку, ходить на&nbsp;выставки
+                и&nbsp;в&nbsp;музеи.
+              </li>
+            </ul>
+            <br />В данный момент занимаюсь UI/UX дизайном, но&nbsp;хочу
+            вернуться в&nbsp;разработку
           </p>
         </div>
 
@@ -51,8 +58,7 @@ export function About() {
         <div className={classes.subBlock}>
           <AboutCard link="http://kn.urfu.tilda.ws/" path={mathMechLogo}>
             <p className="caption">
-              Закончил<b>&nbsp;матмех УрФУ</b>, специальность —
-              <i>&nbsp;математика</i>.
+              Закончил<b> матмех УрФУ</b>, специальность —<i> математика</i>.
             </p>
           </AboutCard>
           <AboutCard
@@ -60,8 +66,8 @@ export function About() {
             path={PracticumLogo}
           >
             <p className="caption">
-              Прохожу курс<i>&nbsp;Middle Frontend-разработчик</i> от
-              <b>&nbsp;Практикума</b>.
+              Прохожу курс<i> Middle Frontend-разработчик</i> от&nbsp;
+              <b>Практикума</b>.
             </p>
           </AboutCard>
           <AboutCard
@@ -69,8 +75,8 @@ export function About() {
             path={BBELogo}
           >
             <p className="caption">
-              Прошёл курс<i>&nbsp;Графический дизайнер</i> в
-              <b>&nbsp;Bang Bang Education</b>.
+              Прошёл курс <i>Графический дизайнер</i> в&nbsp;
+              <b>Bang Bang Education</b>.
             </p>
           </AboutCard>
         </div>
