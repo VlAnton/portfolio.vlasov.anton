@@ -25,8 +25,3 @@
 .text {
   margin: 0;
 }
-
-.link {
-  color: var(--color-primary-link);
-  text-decoration: none;
-}
