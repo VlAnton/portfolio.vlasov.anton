@@ -1,15 +1,15 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 import classes from '@/components/AboutCard/AboutCard.module.css'
 
 type AboutCardProps = {
-  link: string
+  link?: string
   path: string
-  children: string
+  children: ReactNode
 }
 
 // TODO: fix types
 
-export function AboutCard(props: any) {
+export function AboutCard(props: AboutCardProps) {
   return (
     <a
       className={classes.cardWrapper}
