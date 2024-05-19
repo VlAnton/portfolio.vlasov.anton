@@ -46,3 +46,10 @@ a {
   color: var(--color-primary-link);
   text-decoration: none;
 }
+
+@media screen and (max-width: 789px) {
+  .page-wrapper {
+    overflow: auto;
+    height: 100%;
+  }
+}

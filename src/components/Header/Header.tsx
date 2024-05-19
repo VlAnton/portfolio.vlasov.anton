@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import classes from '@/components/Header/Header.module.css'
 import { HeaderTab } from '@/components'
 import { useLocation } from 'react-router-dom'
+import { getWindowDimensions } from '@/helpers/window'
 
 const tabs = [
   {
@@ -38,6 +39,9 @@ const tabs = [
 
 export function Header() {
   const [activeTab, setActiveTab] = useState('home')
+  const [windowDimensions, setWindowDimensions] = useState(
+    getWindowDimensions(),
+  )
   const location = useLocation()
 
   function handleClick(tab: string) {
@@ -49,10 +53,21 @@ export function Header() {
     if (tab) {
       setActiveTab(tab.tabName)
     }
+
+    function handleResize() {
+      setWindowDimensions(getWindowDimensions())
+    }
+
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
   })
 
   return (
-    <header className={classes.header}>
+    <header
+      className={
+        windowDimensions.width > 790 ? classes.header : classes.headerColumn
+      }
+    >
       <div className={classes.headerContent}>
         <p className={classes.logo}>Антон Власов</p>
 
