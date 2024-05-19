@@ -11,14 +11,14 @@ export function Experience() {
     <div className="page-wrapper">
       <section className={classes.description}>
         <h1 className="main-header">Мой опыт</h1>
-        <p className={classes.descriptionText}>
+        <p className="caption">
           Начинал свой путь в&nbsp;IT я с&nbsp;языка программирования Python,
           с&nbsp;backend-разработки. Спустя год меня позвали в&nbsp;МТС, где я
           работал frontend-разработчиком 3.5 лет, после&nbsp;чего&nbsp;
           переквалифицировался в&nbsp;UI/UX дизайнеры.
         </p>
         <a
-          className={classes.descriptionText}
+          className="caption"
           href="https://github.com/VlAnton"
           target="_blank"
           rel="noreferrer"

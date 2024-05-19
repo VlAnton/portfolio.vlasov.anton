@@ -44,12 +44,26 @@
   width: 84%;
 }
 
-.block p {
-  font-size: 30px;
-}
-
 .subBlock {
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
+}
+
+@media screen and (max-width: 430px) {
+  .aboutGrid {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .about {
+    gap: 25px;
+    flex-direction: column;
+  }
+  .block {
+    gap: 25px;
+  }
+  .subBlock {
+    gap: 25px;
+  }
 }

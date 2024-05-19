@@ -4,11 +4,6 @@
   gap: 25px;
 }
 
-.descriptionText {
-  font-size: 35px;
-  margin: 0;
-}
-
 .block {
   display: flex;
   flex-direction: column;
@@ -44,4 +39,15 @@
 
 .cardBlock * {
   margin: 0;
+}
+
+@media screen and (max-width: 1097px) {
+  .blockHeader {
+    font-size: 25px;
+  }
+
+  .cardBlockHeader,
+  .cardBlockDescription {
+    font-size: 20px;
+  }
 }
