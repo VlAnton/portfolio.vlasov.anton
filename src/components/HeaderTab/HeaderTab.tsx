@@ -12,7 +12,7 @@ type TabProps = {
 
 export function HeaderTab(props: TabProps) {
   return (
-    <li
+    <div
       className={
         props.activeTab === props.tabName
           ? `${classes.active} ${classes.tab}`
@@ -26,6 +26,6 @@ export function HeaderTab(props: TabProps) {
       >
         <p>{props.children}</p>
       </Link>
-    </li>
+    </div>
   )
 }
