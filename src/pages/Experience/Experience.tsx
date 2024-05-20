@@ -11,14 +11,14 @@ export function Experience() {
     <div className="page-wrapper">
       <section className={classes.description}>
         <h1 className="main-header">Мой опыт</h1>
-        <p className={classes.descriptionText}>
+        <p className="caption">
           Начинал свой путь в&nbsp;IT я с&nbsp;языка программирования Python,
           с&nbsp;backend-разработки. Спустя год меня позвали в&nbsp;МТС, где я
           работал frontend-разработчиком 3.5 лет, после&nbsp;чего&nbsp;
           переквалифицировался в&nbsp;UI/UX дизайнеры.
         </p>
         <a
-          className={classes.descriptionText}
+          className="caption"
           href="https://github.com/VlAnton"
           target="_blank"
           rel="noreferrer"
@@ -30,7 +30,7 @@ export function Experience() {
       <section className={classes.block}>
         <h2 className={classes.blockHeader}>Backend</h2>
         <div className={classes.subBlock}>
-          <AboutCard path={tensorImg}>
+          <AboutCard link="https://tensor.ru/" path={tensorImg}>
             <div className={classes.cardBlock}>
               <h3 className={classes.cardBlockHeader}>Тензор</h3>
               <p className={classes.cardBlockDescription}>
@@ -39,7 +39,7 @@ export function Experience() {
             </div>
           </AboutCard>
 
-          <AboutCard path={jetStyleImg}>
+          <AboutCard link="https://jetstyle.ru/" path={jetStyleImg}>
             <div className={classes.cardBlock}>
               <h3 className={classes.cardBlockHeader}>JetStyle</h3>
               <p className={classes.cardBlockDescription}>
@@ -49,7 +49,7 @@ export function Experience() {
             </div>
           </AboutCard>
 
-          <AboutCard path={skyDNSImg}>
+          <AboutCard link="https://www.skydns.ru/" path={skyDNSImg}>
             <div className={classes.cardBlock}>
               <h3 className={classes.cardBlockHeader}>SkyDNS</h3>
               <p className={classes.cardBlockDescription}>
@@ -63,7 +63,7 @@ export function Experience() {
             </div>
           </AboutCard>
 
-          <AboutCard path={MTSImg}>
+          <AboutCard link="https://mts-digital.ru/" path={MTSImg}>
             <div className={classes.cardBlock}>
               <h3 className={classes.cardBlockHeader}>МТС</h3>
               <p className={classes.cardBlockDescription}>
@@ -78,7 +78,7 @@ export function Experience() {
       <section className={classes.block}>
         <h2 className={classes.blockHeader}>Frontend</h2>
         <div className={classes.subBlock}>
-          <AboutCard path={skyDNSImg}>
+          <AboutCard link="https://www.skydns.ru/" path={skyDNSImg}>
             <div className={classes.cardBlock}>
               <h3 className={classes.cardBlockHeader}>SkyDNS</h3>
               <p className={classes.cardBlockDescription}>
@@ -87,7 +87,7 @@ export function Experience() {
             </div>
           </AboutCard>
 
-          <AboutCard path={MTSImg}>
+          <AboutCard link="https://mts-digital.ru/" path={MTSImg}>
             <div className={classes.cardBlock}>
               <h3 className={classes.cardBlockHeader}>МТС</h3>
               <p className={classes.cardBlockDescription}>
@@ -102,7 +102,7 @@ export function Experience() {
       <section className={classes.block}>
         <h2 className={classes.blockHeader}>UI/UX</h2>
         <div className={classes.subBlock}>
-          <AboutCard path={MTSImg}>
+          <AboutCard link="https://mts-digital.ru/" path={MTSImg}>
             <div className={classes.cardBlock}>
               <h3 className={classes.cardBlockHeader}>МТС</h3>
               <p className={classes.cardBlockDescription}>

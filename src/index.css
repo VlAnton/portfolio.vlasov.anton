@@ -2,11 +2,14 @@
 
 :root {
   --header-height: 140.5px;
+  --header-burger-height: 107px;
   --footer-height: 140.5px;
 
   --color-primary-text: #000;
   --color-primary-link: #007cff;
   --color-primary-border: #000;
+  --color-primary-background: #fff;
+  --color-hover-background: #f1f1f1;
 }
 
 body {

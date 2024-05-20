@@ -14,3 +14,15 @@
   color: #fff;
   margin: auto;
 }
+
+@media screen and (max-width: 790px) {
+  .mainPageCard {
+    padding: 37.5px 25px;
+    height: 100%;
+    border-radius: 25px;
+    background-position: bottom;
+  }
+  .caption {
+    font-size: 25px;
+  }
+}

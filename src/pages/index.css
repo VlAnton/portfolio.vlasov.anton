@@ -24,3 +24,40 @@
   font-size: 25px;
   margin: 0;
 }
+
+@media screen and (max-width: 1097px) {
+  .main-header {
+    font-size: 40px;
+  }
+  .sub-header {
+    font-size: 25px;
+  }
+  .caption {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .page-wrapper {
+    padding: 50px 25px;
+    padding-top: calc(50px + var(--header-burger-height));
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .page-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .main-header {
+    font-size: 25px;
+  }
+  .sub-header {
+    font-size: 15px;
+  }
+  .caption {
+    font-size: 15px;
+  }
+}
