@@ -49,7 +49,7 @@ a {
 
 @media screen and (max-width: 789px) {
   .page-wrapper {
-    overflow: auto;
+    overflow-y: auto;
     height: 100%;
   }
 }
