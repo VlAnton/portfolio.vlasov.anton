@@ -1,0 +1,43 @@
+.header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  background-color: var(--color-primary-background);
+  height: var(--header-burger-height);
+  gap: 50px;
+  padding: 25px;
+  border-bottom: 2px solid var(--color-primary-border);
+}
+
+.burgerButton {
+  border: none;
+  background-color: var(--color-primary-background);
+  cursor: pointer;
+  transition: background-color ease 0.3s;
+  border-radius: 10px;
+}
+
+.burgerButton:hover {
+  background-color: var(--color-hover-background);
+  transition: background-color ease 0.3s;
+}
+
+.navbar,
+.navbarActive {
+  position: fixed;
+  background-color: var(--color-primary-background);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  top: 107px;
+  left: -50%;
+  width: 50%;
+  height: 100%;
+  border-right: 2px solid var(--color-primary-border);
+  padding: 25px;
+  transition: all ease 0.3s;
+}
+
+.navbarActive {
+  left: 0;
+}

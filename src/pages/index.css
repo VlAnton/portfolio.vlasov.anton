@@ -37,12 +37,20 @@
   }
 }
 
+@media screen and (max-width: 790px) {
+  .page-wrapper {
+    padding: 50px 25px;
+    padding-top: calc(50px + var(--header-burger-height));
+    overflow-y: auto;
+    height: 100%;
+  }
+}
+
 @media screen and (max-width: 578px) {
   .page-wrapper {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding: 50px 25px;
   }
   .main-header {
     font-size: 25px;
