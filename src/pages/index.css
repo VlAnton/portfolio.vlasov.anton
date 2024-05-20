@@ -41,7 +41,6 @@
   .page-wrapper {
     padding: 50px 25px;
     padding-top: calc(50px + var(--header-burger-height));
-    overflow-y: auto;
     height: 100%;
   }
 }

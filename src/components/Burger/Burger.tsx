@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import classes from '@/components/Burger/Burger.module.css'
 import { HeaderTab } from '@/components'
 import { useLocation } from 'react-router-dom'
@@ -8,6 +8,7 @@ import { tabs } from '@/helpers/constants'
 export function Burger() {
   const [activeTab, setActiveTab] = useState('home')
   const [showBurger, setShowBurger] = useState(false)
+  const burgerRef = useRef(null)
   const location = useLocation()
 
   function handleTabClick(tab: string) {
@@ -22,10 +23,23 @@ export function Burger() {
     if (tab) {
       setActiveTab(tab.tabName)
     }
+    function handleClickOutside(event: MouseEvent) {
+      if (
+        showBurger &&
+        burgerRef.current &&
+        (burgerRef.current as Node).contains(event.target as Node)
+      ) {
+        setShowBurger(true)
+      } else {
+        setShowBurger(false)
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => document.removeEventListener('mousedown', handleClickOutside)
   })
 
   return (
-    <div className={classes.burger}>
+    <div ref={burgerRef} className={classes.burger}>
       <header className={classes.header}>
         <button className={classes.burgerButton} onClick={handleBurgerClick}>
           <img src={burgerIcon} alt="burger"></img>
